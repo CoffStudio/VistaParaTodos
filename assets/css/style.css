@@ -1055,6 +1055,24 @@ p {
     -moz-box-shadow: 0px 15px 17px 0px rgba(154, 154, 154, 0.16);
     box-shadow: 0px 15px 17px 0px rgba(154, 154, 154, 0.16); }
 
+.col-nos-6{
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+    @media (min-width: 992px){
+.col-nos-6 {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;}
+  }
+  @media (max-width: 576px){
+.col-nos-6 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;}
+}
+
 /*===========================
        04.ABOUT css
 ===========================*/
